@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <section class="form-section">
+
+        <div class="form-header">
+            <h2 class="form-title" id="title">PROPIETARIO</h2>
+            <p class="form-description t-center">Registrate para obtener todos nuestros beneficios</p>
+        </div>
+
+        <form class="form-container" id="survey-form">
+
+            <div class="credential form-group">
+                <label class="credential-inputs bold-text">Nombre<input type="text" class="text-box" required /></label>
+                <label class="credential-inputs bold-text">Apellidos<input type="text" class="text-box" required /></label>
+                <label class="credential-inputs bold-text">Teléfono<input type="tel" class="text-box" required /></label>
+                <label class="credential-inputs bold-text">Ciudad de residencia<input type="password" class="text-box" required /></label>
+                <label class="credential-inputs bold-text">Correo electrónico<input type="email" class="text-box" required /></label>
+                <label class="bold-text">Edad<input type="number" class="credential-inputs number-input text-box" min="18" max="70" placeholder=" " required /></label>
+                <label class="credential-inputs bold-text">Usuario<input type="text" class="text-box" required /></label>
+                <label class="credential-inputs bold-text">Contraseña<input type="password" class="text-box" required /></label>
+            </div>
+
+            <button type="submit" id="submit" class="submit-btn">REGISTRARSE</button>
+
+        </form>
+
+    </section>
+
+
+
+
+    <section class="form-section">
+
+        <div class="form-header">
+            <h2 class="form-title" id="title">VEHICULO</h2>
+            <p class="form-description t-center">¡Registra tu vehículo!</p>
+        </div>
+
+        <form class="form-container" id="survey-form">
+            <div class="credential form-group">
+                <label class="credential-inputs bold-text">Marca<input type="text" class="text-box" required /></label>
+                <label class="credential-inputs bold-text">Modelo<input type="text" class="text-box" required /></label>
+                <label class="credential-inputs bold-text">Placa<input type="text" class="text-box" required /></label>
+                <label class="credential-inputs bold-text">País de origen<input type="password" class="text-box" required /></label>
+                <label class="credential-inputs bold-text">Cilindraje<input type="text" class="text-box" required /></label>
+                <label class="bold-text">Capacidad<input type="number" class="credential-inputs number-input text-box" 
+                    name="edad" min="1" max="10" placeholder=" " required />
+                </label>
+            </div>
+
+            <div class="dropdown form-group">
+                <label class="dropdown-input bold-text">¿Cuál opción describe mejor su experencia?
+                    <select id="dropdown" class="content-select text-box">
+                        <option disabled selected>Escoga una opción</option>
+                        <option value="">Buseta</option>
+                        <option value="">Microbús</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="comentary form-group">
+                <label class="comentary-input bold-text">Descripción
+                    <textarea class="text-area text-box"
+                        placeholder="Haga descripción general, por ejemplo, si tiene aire acondicionado, televisor, etc."></textarea>
+                </label>
+            </div>
+
+            <button type="submit" id="submit" class="submit-btn">REGISTRAR</button>
+
+        </form>
+
+    </section>
+
+
+    
+
+    <section class="form-section">
+
+        <div class="form-header">
+            <h2 class="form-title" id="title">MECÁNICO</h2>
+            <p class="form-description t-center">Obtén la mejor experiencia laboral</p>
+        </div>
+
+        <form class="form-container" id="survey-form">
+
+            <div class="credential form-group">
+                <label class="credential-inputs bold-text">Nombre<input type="text" class="text-box" required /></label>
+                <label class="credential-inputs bold-text">Apellidos<input type="text" class="text-box" required /></label>
+                <label class="credential-inputs bold-text">Teléfono<input type="tel" class="text-box" required /></label>
+                <label class="dropdown-input bold-text">¿Cuál es su nivel de estudio?
+                    <select id="dropdown" class="content-select text-box">
+                        <option disabled selected>Escoga una opción</option>
+                        <option value="">Bachiller</option>
+                        <option value="">Técnico</option>
+                        <option value="">Tecnólogo</option>
+                        <option value="">Profesional</option>
+                    </select>
+                </label>
+                <label class="credential-inputs bold-text">Dirección<input type="password" class="text-box" required /></label>
+                <label class="credential-inputs bold-text">Sede<input type="password" class="text-box" required /></label>
+                <label class="credential-inputs bold-text">Usuario<input type="text" class="text-box" required /></label>
+                <label class="credential-inputs bold-text">Contraseña<input type="password" class="text-box" required /></label>
+            </div>
+             
+            <button type="submit" id="submit" class="submit-btn">REGISTRARSE</button>
+
+        </form>
+
+    </section>
+
+
+</body>
+
+</html>
